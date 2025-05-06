@@ -403,3 +403,4 @@ FodyWeavers.xsd
 src/evaluation/Abyx.AI.Evaluation/appsettings.json
 src/diagnostic/Abyx.AI.Diagnostic/appsettings.json
 src/.idea/**
+src/evaluation/Abyx.AI.EvaluationTests/testsettings.json
