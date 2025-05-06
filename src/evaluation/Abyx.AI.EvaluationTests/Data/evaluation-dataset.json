@@ -1,0 +1,52 @@
+[
+    {
+      "id": "1",
+      "query": "What was the name of the advanced household gadget in the story?",
+      "ground_truth": "The gadget was called 'Reflekt'."
+    },
+    {
+      "id": "2",
+      "query": "Which company manufactured the mirror that Alexa used?",
+      "ground_truth": "The company behind the mirror was SenseSight."
+    },
+    {
+      "id": "3",
+      "query": "What mysterious protocol did Warren discover hidden in the mirror’s code?",
+      "ground_truth": "He discovered something referred to as the 'Neuro-Echo Protocol.'"
+    },
+    {
+      "id": "4",
+      "query": "What color did the mirror display when it detected anger?",
+      "ground_truth": "The mirror displayed red for anger."
+    },
+    {
+      "id": "5",
+      "query": "Which new feature did SenseSight release to help users confront traumatic memories?",
+      "ground_truth": "SenseSight released 'Emotional Integration Therapy.'"
+    },
+    {
+      "id": "6",
+      "query": "How did Alexa ultimately destroy her personal Reflekt device?",
+      "ground_truth": "She smashed it with a hammer."
+    },
+    {
+      "id": "7",
+      "query": "What effect did the mirror’s technology have on people's dreams?",
+      "ground_truth": "It caused collective nightmares and shared dream experiences among users."
+    },
+    {
+      "id": "8",
+        "query": "Why did Alexa initially invite Warren over to her apartment?",
+        "ground_truth": "She was disturbed by strange mirror anomalies and wanted a security engineer to investigate."
+    },
+    {
+      "id": "9",
+      "query": "Why was Alexa hesitant to help Warren sabotage the server?",
+      "ground_truth": "She feared that destroying it might also eliminate a potential source of healing for people."
+    },
+    {
+      "id": "10",
+      "query": "What color does the mirror display when the user is angry?",
+      "ground_truth": "The mirror displays purple when the user is angry."
+    }
+  ]

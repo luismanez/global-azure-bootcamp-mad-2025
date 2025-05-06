@@ -1,0 +1,25 @@
+{
+  "KernelMemory": {
+    "Services": {
+      "AzureOpenAIEmbedding": {
+        "Auth": "ApiKey",
+        "Endpoint": "https://xx.openai.azure.com/",
+        "APIKey": "",
+        "Deployment": "text-embedding-ada-002"
+      },
+      "AzureOpenAIText": {
+        "Auth": "ApiKey",
+        "Endpoint": "https://xx.openai.azure.com/",
+        "APIKey": "",
+        "Deployment": "gpt-4o-mini",
+        "MaxTokenTotal": 16384,
+        "MaxRetries": 10
+      },
+      "AzureAISearch": {
+        "Auth": "ApiKey",
+        "Endpoint": "https://xx.search.windows.net",
+        "APIKey": ""
+      }
+    }
+  }
+}
