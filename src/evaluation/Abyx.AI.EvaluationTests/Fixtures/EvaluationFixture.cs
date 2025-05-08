@@ -46,6 +46,8 @@ public class EvaluationFixture : IAsyncLifetime
         await Memory.ImportDocumentAsync(
             filePath: "Data/story.MD",
             documentId: "black-mirror-story-01");
+        
+        await Task.Delay(5000);
     }
 
     private void InitialiseKernelMemory(IConfiguration configuration)
@@ -84,7 +86,8 @@ public class EvaluationFixture : IAsyncLifetime
             new AzureOpenAIClient(
                     new Uri(azureOpenAiTextConfig.Endpoint), 
                     new ApiKeyCredential(azureOpenAiTextConfig.APIKey))
-                .AsChatClient(modelId: azureOpenAiTextConfig.Deployment);
+                .GetChatClient(azureOpenAiTextConfig.Deployment)
+                .AsIChatClient();
         
         return new ChatConfiguration(client);
     }
