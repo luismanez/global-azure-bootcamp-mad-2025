@@ -1,4 +1,7 @@
 # Global Azure Bootcamp Madrid 2025 (10 de Mayo de 2025)
+
+![Ai Evaluation session card](./assets/luismanez-session-card.jpeg)
+
 Materiales de mi sesión "Evaluación y Logging en Aplicaciones de IA: Mejores Prácticas y Herramientas" impartida en el Global Azure Bootcamp Madrid 2025
 
 ## Evaluacion Aplicaciones IA
